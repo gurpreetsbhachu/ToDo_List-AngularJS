@@ -1,0 +1,151 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+
+    background-color: rgba(70, 131, 180, 0.267);
+
+    -webkit-box-shadow: 0px -1px 30px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px -1px 30px 0px rgba(0,0,0,0.25);
+box-shadow: 0px -1px 30px 0px rgba(0,0,0,0.25);
+
+}
+
+h2{
+background-color:steelblue;
+color: white;
+padding: 10px 0px;
+font-size: 22px;
+}
+
+ul {
+    list-style: none;
+    font-size: 16px;
+    color: #424242;
+}
+
+li{
+    margin-left: -40px;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ededed;
+    
+
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+li:hover{
+    transform: scale(1);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+li span{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.btn-del{
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+    transition: 0.4s all;
+}
+
+.btn-del:hover{
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+}
+
+.btn-edit{
+    background-color: white;
+    border: 1px solid #262626;
+    transition: 0.4s all;
+}
+
+.btn-edit:hover{
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+}
+
+.btn-done{
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+    transition: 0.4s all;
+}
+
+.btn-done:hover{
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+}
+
+.btn-udone{
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+    transition: 0.4s all;
+}
+
+.btn-udone:hover{
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+}
+
+
+.addItem{
+    position: relative;
+    padding-bottom: 0px;
+    height: 50px;
+}
+
+.addText{
+    width: 60%;
+    height: 35px;
+}
+
+.addItem button{
+    background-color: steelblue;
+    height: 35px;
+    width: 100px;
+    color: white;
+    transition: 0.4s all;
+}
+.addItem button:hover{
+    background-color:transparent;
+    height: 35px;
+    width: 100px;
+    color: steelblue;
+    border: 2px solid steelblue;
+    transition: 0.4ms all;
+}
+
+.done{
+    background-color: yellowgreen;
+}
